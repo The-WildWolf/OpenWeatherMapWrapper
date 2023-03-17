@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "openweathermapwrapper"
-version = "0.2.0"
+version = "0.2.1"
 description = "Uses the OpenWeatherMap API to fetch current weather and forecast data for a given city."
 authors = ["The-WildWolf <ksenna.sitek@gmail.com>"]
 readme = "README.md"
@@ -20,7 +20,7 @@ version_files = [
     "pyproject.toml:^version",
 ]
 update_changelog_on_bump = true
-version = "0.2.0"
+version = "0.2.1"
 
 
 [tool.commitizen_changelog]
