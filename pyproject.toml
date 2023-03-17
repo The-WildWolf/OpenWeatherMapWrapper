@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "openweathermapwrapper"
+version = "0.1.0"
+description = "Uses the OpenWeatherMap API to fetch current weather and forecast data for a given city."
+authors = ["The-WildWolf <ksenna.sitek@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.2"
+
+
+[tool.poetry.group.dev.dependencies]
+commitizen = "^2.42.1"
+pre-commit = "^3.1.1"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version_files = [
+    "pyproject.toml:version",
+]
+
+[tool.commitizen_changelog]
+tag_format = "v$version"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
