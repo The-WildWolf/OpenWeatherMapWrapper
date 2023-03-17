@@ -19,7 +19,7 @@ Add the module to your project using pip.
 Replace tag after `@` with the desired commit hash or tag:
 ```bash
 $ python
-$ pip install git+https://github.com/The-WildWolf/OpenWeatherMapWrapper.git@0.1.0
+$ pip install git+https://github.com/The-WildWolf/OpenWeatherMapWrapper.git@0.2.1
 ```
 
 ### Using Poetry
@@ -28,7 +28,7 @@ Add the module to your project using poetry.
 Replace tag after `@` with the desired commit hash or tag:
 
 ```bash
-poetry add git+https://github.com/The-WildWolf/OpenWeatherMapWrapper.git@0.1.0
+poetry add git+https://github.com/The-WildWolf/OpenWeatherMapWrapper.git@0.2.1
 ```
 
 ### Contributing
